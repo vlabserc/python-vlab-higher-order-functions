@@ -155,12 +155,13 @@ I am ordinary person
 
 1. In the example shown above, make_a_ordinary_person_Rich() is a decorator.
 
+```.py
 decorated_func = make_a_ordinary_person_rich(ordinary_person)
+```
 
+2. In the above code,we are now passing the ordinary_person() function as the argument to the make_a_ordinary_person_Rich() function.
 
-1. In the above code,we are now passing the ordinary_person() function as the argument to the make_a_ordinary_person_Rich() function.
-
-2. The make_a_ordinary_person_Rich() function returns the inner function, and it is now assigned to the decorated_func variable.
+3. The make_a_ordinary_person_Rich() function returns the inner function, and it is now assigned to the decorated_func variable.
 
 Image 4.Describes that Ashish now understood the concept of higher order functions in python, and he finally decided to convert his previously written code into a higher order function , which accepts a function as an argument. 
 ```.py
