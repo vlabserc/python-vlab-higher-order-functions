@@ -1,353 +1,205 @@
 {
+  "version": 2.0,
 
+  "questions": [
+    {
+      "question": "What are higher-order functions in Python?",
 
+      "answers": {
+        "a": "A function that takes another function as a parameter",
 
+        "b": "A function that returns a function",
 
- "version": 2.0,
+        "c": "Both (a) and (b)",
 
+        "d": "None of the above"
+      },
 
- "questions": [
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the purpose of the strip() function in Python?",
 
+      "answers": {
+        "a": "To remove extra spaces from the beginning and end of a string",
 
-   {
+        "b": "To convert a string into uppercase",
 
+        "c": "To convert a string into lowercase",
 
-     "question": "What are higher-order functions in Python?",
+        "d": "To split a string into a list of substrings"
+      },
 
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Which built-in function is used to convert a string into lowercase in Python?",
 
-     "answers": {
+      "answers": {
+        "a": "upper()",
 
+        "b": "strip()",
 
-       "a": "A function that takes another function as a parameter",
+        "c": "split()",
 
+        "d": "lower()"
+      },
 
-       "b": "A function that returns a function",
+      "correctAnswer": "d",
+      "difficulty": "Beginner"
+    },
 
+    {
+      "question": "In higher order function, the return statement consists of a function",
 
-       "c": "Both (a) and (b)",
+      "answers": {
+        "a": "Agree",
 
+        "b": "Disagree",
 
-       "d": "None of the above"
+        "c": "Maybe",
 
+        "d": "None of the above"
+      },
 
-     },
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
 
-    "correctAnswer": "c",
-     "difficulty": "Beginner"
-   },
- {
+    {
+      "question": "Higher order functions are functions which can take a function as a argument and perform some operation according to that function",
 
+      "answers": {
+        "a": "True",
 
-     "question": "What is the purpose of the strip() function in Python?",
+        "b": "False",
 
+        "c": "Neither true nor false",
 
-     "answers": {
+        "d": "All of the above"
+      },
 
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
 
-       "a": "To remove extra spaces from the beginning and end of a string",
+    {
+      "question": "Which built-in functions are used in the \"normalize_school_names\" function?(Refer Code in theory section)",
 
+      "answers": {
+        "a": "strip() and upper()",
 
-       "b": "To convert a string into uppercase",
+        "b": "strip() and lower()",
 
+        "c": "split() and upper()",
 
-       "c": "To convert a string into lowercase",
+        "d": "split() and lower()"
+      },
 
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
 
-       "d": "To split a string into a list of substrings"
+    {
+      "question": "What is the difference between the two versions of the \"normalize_school_names\" function?(Refer code in theory section)",
 
+      "answers": {
+        "a": "The first version uses fewer built-in functions than the second version.",
 
-     },
+        "b": "The second version is more efficient and simpler, as it uses a list of functions.",
 
-    "correctAnswer": "a",
-     "difficulty": "Beginner"
-   },
+        "c": "The first version only converts school names to lowercase, while the second version removes extra spaces and converts to lowercase.",
 
-     "question": "Which built-in function is used to convert a string into lowercase in Python?",
+        "d": " None of the above"
+      },
 
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the purpose of the strip() function used in the normalize_school_names function?(Refer code provided in theory section)",
 
-     "answers": {
+      "answers": {
+        "a": "To convert all strings in the list to uppercase",
 
+        "b": "To remove any extra spaces at the beginning or end of each string",
 
-       "a": "upper()",
+        "c": "To split each string into a list of individual characters",
 
+        "d": "None of the above"
+      },
 
-       "b": “strip()",
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
 
+    {
+      "question": "What is the purpose of the append() function used in the normalize_school_names function?(Refer code provided in theory section)",
 
-       "c": "split()",
+      "answers": {
+        "a": "To convert all strings in the list to lowercase",
 
+        "b": "To add a new string to the end of the list",
 
-       "d": "lower()”.
+        "c": "To remove the first element from the list",
 
+        "d": "None of the above"
+      },
 
-     },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
 
-    "correctAnswer": "d",
-     "difficulty": "Beginner"
-   },
+    {
+      "question": "What is the output of the following code? list_of_schools = [' GLENDALE',' OAKRIDGE',' BIRLA','MERIDIAN','DRS',' JOHNSON'] normalized_names_of_school=[] for school_name in list_of_schools: school_name=school_name.strip() school_name=school_name.lower() normalized_names_of_school.append(school_name) print(normalized_names_of_school)",
 
+      "answers": {
+        "a": "[' GLENDALE',' OAKRIDGE',' BIRLA','MERIDIAN','DRS',' JOHNSON']",
 
-     "question": "In higher order function, the return statement consists of a function",
+        "b": "['GLENDALE', 'OAKRIDGE', 'BIRLA', 'MERIDIAN', 'DRS', 'JOHNSON']",
 
+        "c": "['glendale', 'oakridge', 'birla', 'meridian', 'drs', 'johnson']",
 
-     "answers": {
+        "d": "['Glendale', 'Oakridge', 'Birla', 'Meridian', 'Drs', 'Johnson']"
+      },
 
+      "correctAnswer": "b",
+      "difficulty": "Hard"
+    },
+    {
+      "question": " What is the advantage of using a high-order function in the \"normalize_school_names\" function?(Refer code provided in theory section)",
 
-       "a": "Agree",
+      "answers": {
+        "a": " It reduces the complexity of the function and makes it easier to read.",
 
+        "b": "It makes the function more efficient by reducing the number of loops needed to iterate through each school name. ",
 
-       "b": “Disagree",
+        "c": "It makes the function more flexible and allows different normalization methods to be used.",
 
+        "d": " All of the above."
+      },
 
-       "c": "Maybe",
+      "correctAnswer": "c",
+      "difficulty": "Hard"
+    },
 
+    {
+      "question": "What is the output of the normalize_school_names function in the second version when applied to the list_of_schools_in_hyderabad?(Refer code provided in theory section)",
 
-       "d": "None of the above”.
+      "answers": {
+        "a": "[' GLENDALE', ' OAKRIDGE', ' BIRLA', 'MERIDIAN', 'DRS', ' JOHNSON']",
 
+        "b": "['glendale', 'oakridge', 'birla', 'meridian', 'drs', 'johnson']",
 
-     },
+        "c": "['Glendale', 'Oakridge', 'Birla', 'Meridian', 'Drs', 'Johnson']",
 
-    "correctAnswer": "a",
-     "difficulty": "Beginner"
-   },
+        "d": "['GLENDALE', 'OAKRIDGE', 'BIRLA', 'MERIDIAN', 'DRS', 'JOHNSON']"
+      },
 
-
-     "question": "Higher order functions are functions which can take a function as a argument and perform some operation according to that function",
-
-
-     "answers": {
-
-
-       "a": "True",
-
-
-       "b": “False",
-
-
-       "c": "Neither true nor false",
-
-
-       "d": "All of the above”.
-
-
-     },
-
-    "correctAnswer": "a",
-     "difficulty": "Beginner"
-   },
-
-
- {
-
-
-     "question": "Which built-in functions are used in the "normalize_school_names" function?(Refer Code in theory section)",
-
-
-     "answers": {
-
-
-       "a": "strip() and upper()",
-
-
-       "b": "strip() and lower()",
-
-
-       "c": "split() and upper()",
-
-
-       "d": "split() and lower()"
-
-
-     },
-
-    "correctAnswer": "b",
-     "difficulty": "Intermediate"
-   },
-
- {
-
-
-     "question": "What is the difference between the two versions of the "normalize_school_names" function?(Refer code in theory section)",
-
-
-     "answers": {
-
-
-       "a": "The first version uses fewer built-in functions than the second version.",
-
-
-       "b": "The second version is more efficient and simpler, as it uses a list of functions.",
-
-
-       "c": "The first version only converts school names to lowercase, while the second version removes extra spaces and converts to lowercase.",
-
-
-       "d": " None of the above"
-"
-
-
-     },
-
-    "correctAnswer": "b",
-     "difficulty": "Intermediate"
-   },
-
-"question": "What is the purpose of the strip() function used in the normalize_school_names function?(Refer code provided in theory section)",
-
-
-     "answers": {
-
-
-       "a": "To convert all strings in the list to uppercase",
-
-
-       "b": "To remove any extra spaces at the beginning or end of each string
-
-
-",
-
-
-       "c": "To split each string into a list of individual characters
-",
-
-
-       "d": "None of the above"
-
-
-     },
-
-    "correctAnswer": "b",
-     "difficulty": "Intermediate"
-   },
-
-
-"question":  "What is the purpose of the append() function used in the normalize_school_names function?(Refer code provided in theory section)",
-
-
-     "answers": {
-
-
-       "a": "To convert all strings in the list to lowercase",
-
-
-       "b": "To add a new string to the end of the list
-",
-
-
-       "c": "To remove the first element from the list",
-
-
-       "d": "None of the above"
-
-
-     },
-
-    "correctAnswer": "b",
-     "difficulty": "Intermediate"
-   },
-
-
-
- {
-
-
-     "question": "What is the output of the following code?
-list_of_schools = [' GLENDALE',' OAKRIDGE',' BIRLA','MERIDIAN','DRS',' JOHNSON']
-normalized_names_of_school=[]
-for school_name in list_of_schools:
-school_name=school_name.strip()
-school_name=school_name.lower()
-normalized_names_of_school.append(school_name)
-print(normalized_names_of_school)
-
-",
-
-
-     "answers": {
-
-
-       "a": "[' GLENDALE',' OAKRIDGE',' BIRLA','MERIDIAN','DRS',' JOHNSON']",
-
-
-       "b": "['GLENDALE', 'OAKRIDGE', 'BIRLA', 'MERIDIAN', 'DRS', 'JOHNSON']
-",
-
-
-       "c": "['glendale', 'oakridge', 'birla', 'meridian', 'drs', 'johnson']",
-
-
-       "d": "['Glendale', 'Oakridge', 'Birla', 'Meridian', 'Drs', 'Johnson']
-
-"
-
-
-     },
-
-    "correctAnswer": "b",
-     "difficulty": "Hard"
-   },
-{
-
-
-     "question": " What is the advantage of using a high-order function in the "normalize_school_names" function?(Refer code provided in theory section)",
-
-
-     "answers": {
-
-
-       "a": " It reduces the complexity of the function and makes it easier to read.",
-
-
-       "b": "It makes the function more efficient by reducing the number of loops needed to iterate through each school name. ",
-
-
-       "c": "It makes the function more flexible and allows different normalization methods to be used.",
-
-
-       "d": " All of the above."
-
-
-     },
-
-    "correctAnswer": "c",
-     "difficulty": "Hard"
-   },
-
-
-
-
-
- {
-
-
-     "question": "What is the output of the normalize_school_names function in the second version when applied to the list_of_schools_in_hyderabad?(Refer code provided in theory section)",
-
-
-     "answers": {
-
-
-       "a": "[' GLENDALE', ' OAKRIDGE', ' BIRLA', 'MERIDIAN', 'DRS', ' JOHNSON']",
-
-
-       "b": "['glendale', 'oakridge', 'birla', 'meridian', 'drs', 'johnson']",
-
-
-       "c": "['Glendale', 'Oakridge', 'Birla', 'Meridian', 'Drs', 'Johnson']",
-
-
-       "d": "['GLENDALE', 'OAKRIDGE', 'BIRLA', 'MERIDIAN', 'DRS', 'JOHNSON']"
-
-
-     },
-
-    "correctAnswer": "b",
-     "difficulty": "Hard"
-   }
-]
+      "correctAnswer": "b",
+      "difficulty": "Hard"
+    }
+  ]
 }
-
-
-
-
-
-

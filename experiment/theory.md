@@ -1,13 +1,13 @@
 In this experiment we are going to learn about high order functions in python, using Ashish’s real world scenario 
 
 
-|<p>1.</p><p>![](Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.001.png)</p>|<p>2.</p><p>![](Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.002.png)</p>|<p>3.</p><p>![](Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.003.png)</p>|
+|<p>1.</p><p>![](images/Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.001.png)</p>|<p>2.</p><p>![](images/Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.002.png)</p>|<p>3.</p><p>![](images/Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.003.png)</p>|
 | :- | :- | :- |
-|<p>4.</p><p>![](Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.004.png)</p>|<p>5.</p><p>![](Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.005.png)</p>|<p>6.</p><p>![](Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.006.png)</p>|
+|<p>4.</p><p>![](images/Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.004.png)</p>|<p>5.</p><p>![](images/Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.005.png)</p>|<p>6.</p><p>![](images/Aspose.Words.a235e1fd-7bf5-4887-b33d-8264cb0c61e9.006.png)</p>|
 
 Image 1. Represents Ashish was offered a job in a startup as a website developer, he selection happened via campus placements and he decided to accept the offer . On his first day in the organisation, he was introduced to all his team members and he was placed into a new project, in that project his team lead had asked him to develop various functions in python (which he thinks would be applicable)  for a online book store website , and write a code for the same. He started thinking about various test cases and finally  he figured out a test-case i.e inserting names of a list of available books in the store, and this would be done by the website admin. So he decided to write a function for the same using python programming language 
 
-```.py
+```py
 list_of_books=[]
 def normalize_book_names(book_list):
     normalized_books=[]
@@ -46,7 +46,7 @@ list_of_schools_in_hyderabad[' GLENDALE',' OAKRIDGE',' BIRLA','MERIDIAN','DRS','
 1. We will be using strip() function to remove the extra spaces from the beginning and end of each string , and lower() function to convert every string present in the list into a lower case
 
 
-```.py
+```py
 list_of_schools_in_hyderabad=[' GLENDALE',' OAKRIDGE',' BIRLA','MERIDIAN','DRS',' JOHNSON']
 def normalize_school_names(list_of_schools):
     normalized_names_of_school=[]
@@ -74,7 +74,7 @@ print(school_names_normalized)
 list_of_schools_in_hyderabad=[' GLENDALE',' OAKRIDGE',' BIRLA','MERIDIAN','DRS',' JOHNSON']
 
 normalization_function=[str.strip,str.lower] #Creating a list of built in functions which we are going to use
-```.py
+```py
 def normalize_school_names(list_of_schools,functions):
     normalized_names_of_school=[]
     for school_name in list_of_schools:
@@ -93,7 +93,7 @@ print(school_names_normalized) #Passing a list of strings as well as list of fun
 
 - **It can return a function→** In python, it is totally allowed that a function can return another function, because in python functions are treated as objects.
 
-```.py
+```py
 def num_1(x):
     def num_2(y):
         return x*y
@@ -105,7 +105,7 @@ def num_1(x):
 
 
 
-```.py
+```py
 object_1=num_1(2) # x=2
             print(object_1(3))
 ```
@@ -114,7 +114,7 @@ object_1=num_1(2) # x=2
 
 - **Decorators→** Decorators modify the functionality of an already existing function,i.e you can change the behaviour of the existing function at the compile time itself. Using decorators you can also facilitate adding extra features in the existing function
 
-```.py
+```py
 def make_a_ordinary_person_Rich(func):
     def inner():
         print("I got Rich")
@@ -128,7 +128,7 @@ def ordinary_person():
 1. In the above example, we have created 2 functions i.e ordinary_person() which prints “I am  ordinary person” ,make_a_ordinary_person_Rich() that takes a function as its argument and has a nested function named inner(), and returns the inner function.
 2. When we call the ordinary_person() function normally, we will get the output as , “I am ordinary person” , now let us call the same using the decorator function.
 
-```.py
+```py
 def make_a_ordinary_person_Rich(func):
     # define the inner function 
     def inner():
@@ -155,7 +155,7 @@ I am ordinary person
 
 1. In the example shown above, make_a_ordinary_person_Rich() is a decorator.
 
-```.py
+```py
 decorated_func = make_a_ordinary_person_rich(ordinary_person)
 ```
 
@@ -164,7 +164,7 @@ decorated_func = make_a_ordinary_person_rich(ordinary_person)
 3. The make_a_ordinary_person_Rich() function returns the inner function, and it is now assigned to the decorated_func variable.
 
 Image 4.Describes that Ashish now understood the concept of higher order functions in python, and he finally decided to convert his previously written code into a higher order function , which accepts a function as an argument. 
-```.py
+```py
 list_of_books=[]
 normalization_function=[str.lower,str.capitalize]
 def normalize_book_names(book_list,functions):
@@ -187,17 +187,4 @@ print(books_normalized)
 Image 5. Describes that his team lead gave a thumbs-up to his code, and asked him to proceed further. 
 
 Image 6. Describes that Ashish was satisfied because he learnt something new on his first day at the organisation, which he had never learned in college
-
-
-
-
-
-Image References
-
-1. <https://in.pinterest.com/pin/830984568730670242/>
-2. <https://www.shutterstock.com/image-vector/two-engineers-verifying-drawing-together-on-558688198>
-3. <https://www.dreamstime.com/stock-image-confused-man-question-mark-sitting-computer-above-head-image40156351>
-4. <https://www.istockphoto.com/vector/young-man-at-computer-leaned-back-in-his-chair-gm1187559295-335513139?phrase=happy%20man>
-5. <https://www.dreamstime.com/boss-praising-employee-employer-worker-vector-office-business-workplace-people-working-project-together-image183377251>
-6. https://www.cleanpng.com/png-programmer-software-engineer-personal-computer-com-3626218/
 
