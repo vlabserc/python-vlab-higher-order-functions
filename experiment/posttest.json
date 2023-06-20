@@ -14,6 +14,12 @@
 
         "d": "None of the above"
       },
+      "explanations": {
+                          "a": "This option is true. Higher-order functions in Python are functions that can accept other functions as arguments. They treat functions as first-class citizens, allowing them to be passed as arguments and used within the body of the higher-order function.",
+                          "b": "This option is also true. Higher-order functions can return functions as their output. They have the ability to generate and return new functions based on the input or internal logic.",
+                          "c": "This option is correct. Higher-order functions can both take another function as a parameter and return a function. They exhibit both of these behaviors, making this option the correct choice.",
+                          "d": "This option is incorrect. The correct answer is option c, as it accurately describes the characteristics of higher-order functions in Python."
+      },
 
       "correctAnswer": "c",
       "difficulty": "Beginner"
@@ -30,6 +36,12 @@
 
         "d": "To split a string into a list of substrings"
       },
+      "explanations": {
+                          "a": "his option is correct. The strip() function in Python is used to remove any leading or trailing whitespace characters from a string. It helps in getting rid of extra spaces at the beginning or end of a string.",
+                          "b": "This option is incorrect. The function that converts a string into uppercase in Python is upper(), not strip(). The strip() function is specifically used for whitespace removal, not for case conversion.",
+                          "c": "This option is incorrect. Similar to option b, the strip() function does not convert a string into lowercase. The function that accomplishes this task is lower(), not strip().",
+                          "d": "This option is incorrect. The function that splits a string into a list of substrings in Python is split(), not strip(). The strip() function is used for whitespace removal, not for string splitting."
+      },
 
       "correctAnswer": "a",
       "difficulty": "Beginner"
@@ -45,6 +57,12 @@
         "c": "split()",
 
         "d": "lower()"
+      },
+      "explanations": {
+                        "a": "This option is incorrect. The upper() function is used to convert a string into uppercase, not lowercase.",
+                        "b": "This option is incorrect. The strip() function is used to remove leading and trailing whitespace from a string, not for case conversion.",
+                        "c": "This option is incorrect. The split() function is used to split a string into a list of substrings based on a specified delimiter, not for case conversion",
+                        "d": "This option is correct. The lower() function is used to convert a string into lowercase in Python. It returns a new string with all characters converted to lowercase."
       },
 
       "correctAnswer": "d",
@@ -63,11 +81,17 @@
 
         "d": "None of the above"
       },
+      "explanations": {
+                        "a": "This option is correct. In higher-order functions, it is possible for the return statement to consist of a function. Higher-order functions can accept functions as arguments and can also return functions as their output.",
+                        "b": "This option is incorrect. Higher-order functions can indeed have a return statement that consists of a function.",
+                        "c": "This option is incorrect. The concept of higher-order functions is well-defined, and it is known that they can involve returning functions.",
+                        "d": "This option is incorrect. The correct answer is option a, Agree, as higher-order functions can indeed return functions."
+      },
 
       "correctAnswer": "a",
       "difficulty": "Beginner"
     },
-
+    
     {
       "question": "Higher order functions are functions which can take a function as a argument and perform some operation according to that function",
 
@@ -79,6 +103,12 @@
         "c": "Neither true nor false",
 
         "d": "All of the above"
+      },
+      "explanations": {
+                        "a": "This option is correct. Higher-order functions are functions that can take other functions as arguments and perform operations based on those functions. They can manipulate and work with functions just like any other data type.",
+                        "b": "This option is incorrect. Higher-order functions do have the capability to accept functions as arguments, so they are not limited to only basic operations.",
+                        "c": "This option is incorrect. The statement in the question is true, so the answer cannot be "neither true nor false.",
+                        "d": "This option is incorrect. The correct answer is option a, True, as higher-order functions do have the ability to take functions as arguments and perform operations based on them."
       },
 
       "correctAnswer": "a",
@@ -97,6 +127,12 @@
 
         "d": "split() and lower()"
       },
+      "explanations": {
+                        "a": "This option is incorrect,observe the code provided in theory section carefully",
+                        "b": "This option is correct",
+                        "c": "This option is incorrect,observe the code provided in theory section carefully",
+                        "d": "This option is incorrect,observe the code provided in theory section carefully"
+      },
 
       "correctAnswer": "b",
       "difficulty": "Intermediate"
@@ -114,6 +150,12 @@
 
         "d": " None of the above"
       },
+      "explanations": {
+                        "a": "This option is incorrect,observe the code provided in theory section carefully",
+                        "b": "This option is correct",
+                        "c": "This option is incorrect,observe the code provided in theory section carefully",
+                        "d": "This option is incorrect,observe the code provided in theory section carefully"
+      },
 
       "correctAnswer": "b",
       "difficulty": "Intermediate"
@@ -129,6 +171,12 @@
         "c": "To split each string into a list of individual characters",
 
         "d": "None of the above"
+      },
+      "explanations": {
+                          "a": "This is not the purpose of the strip() function. The strip() function is used for removing leading and trailing whitespace, but it does not perform any uppercase conversion.",
+                          "b": "This is the correct purpose of the strip() function. The strip() function removes any leading and trailing whitespace characters from a string, including extra spaces, tabs, or newline characters.",
+                          "c": "This is not the purpose of the strip() function. The strip() function does not split a string into individual characters. Instead, it trims whitespace from the beginning and end of the string.",
+                          "d": "The correct purpose of the strip() function is to remove any extra spaces at the beginning or end of each string. Therefore, option d is incorrect."
       },
 
       "correctAnswer": "b",
@@ -147,6 +195,12 @@
 
         "d": "None of the above"
       },
+      "explanations": {
+                        "a": "This is not the purpose of the append() function. The append() function is used to add a new element to the end of a list, it does not perform any string conversion.",
+                        "b": "This is the correct purpose of the append() function. The append() function is used to add a new element, in this case, a string, to the end of the normalized_names list.",
+                        "c": "This is not the purpose of the append() function. The append() function adds elements to the end of the list and does not remove elements from the list.",
+                        "d": "The correct purpose of the append() function is to add a new string to the end of the list. Therefore, option d is incorrect."
+      },
 
       "correctAnswer": "b",
       "difficulty": "Intermediate"
@@ -164,8 +218,14 @@
 
         "d": "['Glendale', 'Oakridge', 'Birla', 'Meridian', 'Drs', 'Johnson']"
       },
+      "explanations": {
+                          "a": "This option is incorrect. The code snippet applies the strip() and lower() functions to each school_name, which removes the extra spaces and converts the names to lowercase. Therefore, the expected output does not have leading spaces, and the names are in lowercase.",
+                          "b": "This option is incorrect. The code snippet only converts the names to lowercase using the lower() function. It does not remove the leading spaces. Therefore, the expected output should have lowercase names with leading spaces intact.",
+                          "c": "This option is correct. The code snippet applies both the strip() and lower() functions to each school_name. It removes the extra spaces and converts the names to lowercase. The expected output is a list of lowercase names without leading spaces.",
+                          "d": "This option is incorrect. The code snippet applies the lower() function, which converts the names to lowercase. It does not change the capitalization of the names. Therefore, the expected output should have lowercase names, not capitalized names."
+      },
 
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "Hard"
     },
     {
@@ -179,6 +239,12 @@
         "c": "It makes the function more flexible and allows different normalization methods to be used.",
 
         "d": " All of the above."
+      },
+      "explanations": {
+                        "a": "This option is incorrect. While higher-order functions can help in organizing and structuring code, they do not necessarily reduce the complexity of the function or make it easier to read. ",
+                        "b": "This option is incorrect. Higher-order functions do not necessarily reduce the number of loops needed in a function. In the given code snippet, the higher-order function map() is used to apply the strip() and lower() functions to each school name, but it does not directly impact the efficiency of the function in terms of loop iterations.",
+                        "c": "This option is correct. One of the advantages of using a higher-order function in the normalize_school_names function is that it makes the function more flexible. By using the map() function with appropriate transformation functions, different normalization methods can be applied to the list of school names. This allows for easy customization and adaptation of the normalization process.",
+                        "d": "This option is incorrect. Only option c) provides a valid advantage of using a higher-order function in the normalize_school_names function. The other options are not directly related to the benefits of using higher-order functions in this context."
       },
 
       "correctAnswer": "c",
@@ -196,6 +262,12 @@
         "c": "['Glendale', 'Oakridge', 'Birla', 'Meridian', 'Drs', 'Johnson']",
 
         "d": "['GLENDALE', 'OAKRIDGE', 'BIRLA', 'MERIDIAN', 'DRS', 'JOHNSON']"
+      },
+      "explanations": {
+                        "a": "This option is incorrect,observe the code provided in theory section carefully",
+                        "b": "This option is correct",
+                        "c": "This option is incorrect,observe the code provided in theory section carefully",
+                        "d": "This option is incorrect,observe the code provided in theory section carefully"
       },
 
       "correctAnswer": "b",
