@@ -83,10 +83,10 @@
         "d": "All of the above"
       },
        "explanations": {
-                          "a": "The "print()" function in Python is not a higher-order function. It is a built-in function used for displaying output to the console. It does not accept or return other functions.",
-                          "b": "The "len()" function in Python is not a higher-order function. It is a built-in function used to determine the length of an object such as a string, list, or tuple. It does not accept or return other functions.",
-                          "c": "The "map()" function in Python is an example of a higher-order function. It takes a function and an iterable as input and applies the function to each element of the iterable, returning an iterator with the results.",
-                          "d": "This option is incorrect because "print()" and "len()" are not higher-order functions. Only "map()" is a higher-order function."
+                          "a": "The print() function in Python is not a higher-order function. It is a built-in function used for displaying output to the console. It does not accept or return other functions.",
+                          "b": "The len() function in Python is not a higher-order function. It is a built-in function used to determine the length of an object such as a string, list, or tuple. It does not accept or return other functions.",
+                          "c": "The map() function in Python is an example of a higher-order function. It takes a function and an iterable as input and applies the function to each element of the iterable, returning an iterator with the results.",
+                          "d": "This option is incorrect because print() and len() are not higher-order functions. Only map() is a higher-order function."
       },
 
       "correctAnswer": "c",
