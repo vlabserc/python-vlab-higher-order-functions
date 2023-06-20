@@ -107,7 +107,7 @@
       "explanations": {
                         "a": "This option is correct. Higher-order functions are functions that can take other functions as arguments and perform operations based on those functions. They can manipulate and work with functions just like any other data type.",
                         "b": "This option is incorrect. Higher-order functions do have the capability to accept functions as arguments, so they are not limited to only basic operations.",
-                        "c": "This option is incorrect. The statement in the question is true, so the answer cannot be "neither true nor false.",
+                        "c": "This option is incorrect. The statement in the question is true, so the answer cannot be neither true nor false.",
                         "d": "This option is incorrect. The correct answer is option a, True, as higher-order functions do have the ability to take functions as arguments and perform operations based on them."
       },
 
